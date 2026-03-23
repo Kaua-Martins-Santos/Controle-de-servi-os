@@ -7,10 +7,10 @@ class BancoDeDados:
     def __init__(self):
         # --- CONFIGURAÇÃO DO POSTGRESQL ---
         self.db_config = {
-            "host": "10.132.16.185",       
-            "database": "controle_servicos", # O nome que você escolheu
+            "host": "10.132.16.44",       
+            "database": "manutencao", 
             "user": "postgres",
-            "password": "Un@sp",    # ATENÇÃO: Coloque sua senha aqui
+            "password": "Manutencao2026",    
             "port": "5432"
         }
 
